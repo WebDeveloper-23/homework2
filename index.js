@@ -58,7 +58,11 @@ let user = {
 
 function nameLastname (name,lastname) {
     if(user.isloggedin === true){
-        return name + ' ' + lastname
+        // return name + ' ' + lastname
+
+        // ან 
+
+        return ` ${name} ${lastname} `
     }
 }
 console.log(nameLastname(user.firstname,user.lastname));
